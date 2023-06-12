@@ -1,0 +1,189 @@
+html {
+    scroll-behavior: smooth;
+   }
+
+a:hover{
+    cursor: pointer;
+}
+
+.first-look{
+    padding-top: 20em;
+    padding-bottom: 35em;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    align-items: center;
+    background-color: beige;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/034/566/691/large/cordy-daler-palmsscene.jpg?1612633514);
+    background-size: cover;
+}
+
+
+.first-look h1{
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.first-look h1, .first-look button{
+    color: white;
+}
+
+.buttons-first-look{
+    display: flex;
+    gap: 2vw;
+}   
+
+.first-look button{
+    background: transparent;
+    border: 2px solid cornsilk;
+    border-radius: 50px;
+    font-size: 2em;
+    padding: 10px 20px;
+}
+
+
+.summary-myself, .summary-project{
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.summary-myself{
+    padding-top: 10em;
+    padding-bottom: 30em;
+}
+
+.summary-myself h2, .summary-project h2{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.summary-myself{
+    display: flex;
+    gap: 40px;
+    background-color: beige;
+    flex-direction: row-reverse;
+}
+
+
+.summary-myself img{
+    height: 300px;
+}
+
+.summary-myself a{
+    color: black;
+}
+
+.summary-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-text p, .summary-project p{
+    font-size: 26px;
+    margin: 50px 0;
+    line-height: 142%;
+}
+
+.summary-myself h3{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.summary-project{
+    padding-top:  10em;
+    padding-bottom: 2em;
+    background-color: #e8e4c8;
+}
+
+.summary-project h2{
+    margin: 0 0 30px 0;
+}
+
+@media all and (max-width:1500px) {
+    
+
+    .first-look h1{
+        font-size: 3em;  
+    }
+
+    .first-look{
+        gap: 5vw;    
+    }
+
+    .buttons-first-look{
+        gap: 2vw;
+    }
+}
+
+@media all and (max-width:1200px) {
+   
+
+    .first-look{
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    .first-look button{
+        font-size: 2em;
+    }
+
+    
+}
+
+@media all and (max-width: 1000px){
+    .summary-myself{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+}
+
+@media all and (max-width: 600px){
+
+
+    .first-look h1,.summary-myself h2, .summary-project h2{
+        font-size: 2em;  
+    }
+
+    .first-look,.summary-myself,.summary-project{
+        text-align: center;
+    }
+
+    .first-look{
+        gap: 20vw;
+        padding-top: 10em;
+        padding-bottom: 20em;
+    }
+
+    .buttons-first-look{
+        flex-direction: column;
+    }
+
+    .first-look button{
+        font-size: 1.5em;
+        padding: 10px 0;  
+        width:250px; 
+    }
+
+
+    .summary-myself{
+        padding-top: 5em;
+        padding-bottom: 10em;
+    }
+
+    .summary-myself img{
+        height: 70vw;
+    }
+
+    .summary-project{
+        padding-top:5em;
+        padding-bottom: 2em;
+    }
+
+    .summary-myself, .summary-project{
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+}

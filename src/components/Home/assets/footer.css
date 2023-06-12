@@ -1,0 +1,68 @@
+footer{
+    background-color: black;
+    color: white;
+}
+
+#github-icon, #email-icon{
+    filter: invert(1);
+}
+
+footer img{
+    opacity: 1;
+}
+
+footer img:hover{
+    opacity: 0.7;
+}
+
+footer h2{
+    font-size: 50px;
+}
+
+.footer-display{
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+
+#email-icon, #linkedin-icon{
+    height: 40px;
+}
+
+#github-icon{
+    height: 60px;
+}
+
+
+@media all and (max-width:1000px) {
+    footer h2{
+        font-size: 30px;
+    }
+    .footer-display{
+        padding: 20px 50px;
+        gap: 20px;
+    }
+}
+
+@media all and (max-width:500px){
+    .footer-display{
+        padding: 20px;
+        gap: 10px;
+    }
+
+    footer h2{
+        font-size: 20px;
+    }
+
+    #email-icon, #linkedin-icon{
+        height: 20px;
+    }
+    
+    #github-icon{
+        height: 30px;
+    }
+}
