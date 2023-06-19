@@ -35,6 +35,7 @@ function Mainpage() {
                 <div>
                     <p>Outils utilisés:</p>
                     <Table/>
+                    <a href='https://miro.com/app/board/uXjVM_6w1tY=/'><p>Mes compétences</p></a>
                 </div> 
             </div>
         </section>

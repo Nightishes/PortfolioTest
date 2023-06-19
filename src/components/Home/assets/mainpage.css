@@ -2,8 +2,13 @@ html {
     scroll-behavior: smooth;
    }
 
+a{
+    text-decoration: none;
+}
+
 a:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .first-look{
