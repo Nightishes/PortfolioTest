@@ -13,14 +13,15 @@
  },
  {
     "id": "2",
-    "name": "Sophie Bluel",
-    "description" : "Site dynamique, avec identification par cookie. Compte test: sophie.bluel@test.tld (email), S0phie (password). Le but était de créer des fonctionnalités pour un administrateur",
-    "image" : "https://i.imgur.com/oCUSnFe.png",
-    "github" : "https://github.com/Nightishes/Projet3_Portfolio_Architech.git",
-    "weblink" : "www.google.com",
+    "name": "Kasa",
+    "description" : "Site réalisé avec React à partir d'une base de donnée JSON. Le but était de manipuler React, et plus particulièrement les props et les states",
+    "image" : "https://i.imgur.com/Al63LC6.png",
+    "github" : "https://github.com/Nightishes/Projet--6-Kesa.git",
+    "weblink" : "https://projet-6-kesa.vercel.app",
     "tags" : [
         "html5",
         "css3",
+        "react",
         "JS",
         "frontend"
     ]
