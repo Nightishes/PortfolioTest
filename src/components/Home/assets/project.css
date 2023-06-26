@@ -89,14 +89,15 @@
     }
 }
 
-@media all and (max-width:750px) {
+@media all and (max-width:800px) {
 
     .description-project{
-        height: 45vw;
+        height: 25vw;
     }
     .text-project h3{
         font-size: 30px;
     }
+
     .card-project{
         width: 80vw;
     }
@@ -125,8 +126,14 @@
     }
 }
 
-@media all and (max-width:350px) {
+@media all and (max-width:400px) {
     .text-project p{
-        font-size: 16px;
+        font-size: 19px;
+    }
+}
+
+@media all and (max-width:300px) {
+    .text-project p{
+        font-size: 17px;
     }
 }
