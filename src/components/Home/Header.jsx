@@ -1,6 +1,6 @@
 import './assets/header.css'
 import MenuIcon from './assets/images/menu-bar.webp'
-import HomeIcon from './assets/images/house-icon.png'
+import HomeIcon from './assets/images/home-icon.png'
 import { useState } from 'react';
 
 function Header() {
