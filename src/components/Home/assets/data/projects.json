@@ -3,7 +3,7 @@
     "name": "Booki",
     "description" : "Premier site internet fait avec OpenClassroom. Le site est statique et fut mon premier vrai projet publié en HTML et CSS",
     "image" : "https://i.imgur.com/r69a8Bq.png",
-    "github" : "https://projet-2-booki.vercel.app/",
+    "github" : "https://github.com/Nightishes/Projet-2-Booki.git",
     "weblink" : "https://projet-2-booki.vercel.app/",
     "tags" : [
         "html5",
@@ -27,26 +27,11 @@
  },
  {
     "id": "3",
-    "name": "Kasa",
-    "description" : "Site réalisé avec React à partir d'une base de donnée JSON. Le but était de manipuler React, et plus particulièrement les props et les states",
-    "image" : "https://i.imgur.com/Al63LC6.png",
-    "github" : "https://github.com/Nightishes/Projet--6-Kesa.git",
-    "weblink" : "https://projet-6-kesa.vercel.app",
-    "tags" : [
-        "html5",
-        "css3",
-        "react",
-        "JS",
-        "frontend"
-    ]
- },
- {
-    "id": "4",
     "name": "Mon vieux grimoire",
     "description" : "Réalisation du backend d'un site préfait. Le but était de pouvoir développer le backend selon le principe CRUD en alliance avec l'utilisation de MongoDB",
     "image" : "https://i.imgur.com/hIlfGeQ.png",
     "github" : "https://github.com/Nightishes/Projet_7_OC.git",
-    "weblink" : "www.google.com",
+    "weblink" : "https://projet-7-frontend.vercel.app",
     "tags" : [
         "expressjs",
         "mongoDB",
