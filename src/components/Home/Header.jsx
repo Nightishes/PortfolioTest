@@ -9,7 +9,7 @@ function Header() {
     return (
         <>
         <header className='display-header'>
-        <a href='/'>Home</a>
+        <a href='/'><FontAwesomeIcon icon="fa-regular fa-house" /></a>
             <nav>
                 <button className='menu-icon-button'>
                     <img src={MenuIcon} alt="" className='menu-icon' onClick={() => { setIsNavExpanded(!isNavExpanded)}}/>
