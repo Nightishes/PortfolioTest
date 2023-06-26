@@ -58,8 +58,9 @@ a:hover, button:hover{
 }
 
 .summary-myself h2, .summary-project h2{
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 700;
+    text-align: center;
 }
 
 .summary-myself{
@@ -84,19 +85,24 @@ a:hover, button:hover{
 }
 
 .summary-text p, .summary-project p{
-    font-size: 26px;
+    font-size: 3em;
     margin: 50px 0;
     line-height: 142%;
 }
 
 .summary-myself h3{
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 500;
+    margin: 40px 0 40px 0;
+}
+
+#competence-link{
+    text-decoration: underline;
 }
 
 .summary-project{
     padding-top: 8em;
-    padding-bottom: 2em;
+    padding-bottom: 5em;
     background-color: #e8e4c8;
 }
 
@@ -143,13 +149,22 @@ a:hover, button:hover{
         gap: 40px;
     }
 
+    .summary-text p, .summary-project p{
+        text-align: center;
+    }
+
+    
 }
 
 @media all and (max-width: 600px){
 
 
     .first-look h1,.summary-myself h2, .summary-project h2{
-        font-size: 2em;  
+        font-size: 3em;  
+    }
+
+    .summary-myself h3{
+        font-size: 2em;
     }
 
     .first-look,.summary-myself,.summary-project{
@@ -172,6 +187,10 @@ a:hover, button:hover{
         width:250px; 
     }
 
+    .summary-text p, .summary-project p{
+        font-size: 2em;
+    }
+    
 
     .summary-myself{
         padding-top: 5em;
@@ -190,5 +209,11 @@ a:hover, button:hover{
     .summary-myself, .summary-project{
         padding-left: 2vw;
         padding-right: 2vw;
+    }
+}
+
+@media all and (max-width: 400px){
+    .summary-text p, .summary-project p{
+        font-size: 1.5em;
     }
 }

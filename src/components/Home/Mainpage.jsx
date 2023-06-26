@@ -33,9 +33,9 @@ function Mainpage() {
                 <h2>A propos de moi</h2>
                 <p>Féru de nouvelles technologies, je cherche toujours à mieux comprendre le monde qui nous entoure. Je passe mon temps à lire ou écouter ce qui m'entoure ainsi que de tester des nouvelles recettes.</p> 
                 <div>
-                    <p>Outils utilisés:</p>
+                    <h3>Outils utilisés:</h3>
                     <Table/>
-                    <a href='https://miro.com/app/board/uXjVM_6w1tY=/'><p>Mes compétences</p></a>
+                    <a href='https://miro.com/app/board/uXjVM_6w1tY=/'><h3 id='competence-link'>Mes compétences</h3></a>
                 </div> 
             </div>
         </section>
