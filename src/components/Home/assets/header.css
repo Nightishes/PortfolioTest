@@ -4,7 +4,9 @@
     text-decoration: none;
 }
 
-
+#home-icon{
+    filter: invert(1);
+}
 header{
     background-color: black;
     color: white;
