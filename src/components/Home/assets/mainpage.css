@@ -85,9 +85,16 @@ a:hover, button:hover{
 }
 
 .summary-text p, .summary-project p{
-    font-size: 3em;
     margin: 50px 0;
     line-height: 142%;
+}
+
+.summary-project p{
+    font-size: 26px;
+}
+
+.summary-text p{
+    font-size: 3em;
 }
 
 .summary-myself h3{
