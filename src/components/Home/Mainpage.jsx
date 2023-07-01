@@ -35,7 +35,7 @@ function Mainpage() {
                 <div>
                     <h3>Outils utilisés:</h3>
                     <Table/>
-                    <a href='https://miro.com/app/board/uXjVM_6w1tY=/'><h3 id='competence-link'>Mes compétences</h3></a>
+                    <a href='https://miro.com/app/board/uXjVM_6w1tY=/?share_link_id=916324835277'><h3 id='competence-link'>Mes compétences</h3></a>
                 </div> 
             </div>
         </section>
