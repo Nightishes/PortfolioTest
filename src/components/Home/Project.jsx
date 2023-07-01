@@ -16,7 +16,7 @@ function Project() {
         </ul>
       </div>
       <div className='links-project'>
-        <a href={project.weblink} key={project.weblink} target='_blank' rel="noreferrer noopener"><button className='live-project'>Live server</button></a>
+        <a href={project.weblink} key={project.weblink} target='_blank' rel="noreferrer noopener"><button className='live-project'>Démo</button></a>
         <a href={project.github} key={project.github} target='_blank' rel="noreferrer noopener"><img src={Github} alt=''></img></a>
       </div>
     </div>
