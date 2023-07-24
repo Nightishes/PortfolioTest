@@ -29,7 +29,7 @@
  {
     "id": "3",
     "name": "Mon vieux grimoire",
-    "description" : "Réalisation du backend d'un site préfait. Le but était de pouvoir développer le backend selon le principe CRUD en alliance avec l'utilisation de MongoDB",
+    "description" : "Réalisation du backend d'un site préfait. Le but était de pouvoir développer le backend selon le principe CRUD avec l'utilisation de MongoDB",
     "image" : "https://i.imgur.com/hIlfGeQ.png",
     "github" : "https://github.com/Nightishes/Projet_7_OC.git",
     "weblink" : "https://projet-7-frontend.vercel.app",

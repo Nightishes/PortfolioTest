@@ -8,13 +8,17 @@
     filter: invert(1);
     height: 60px;
 }
+
+
 header{
     background-color: black;
     color: white;
+    position: fixed;
 }
 
 .menu-icon{
     filter: invert(1);
+    margin-right: 35px;
 }
 
 .menu-icon-button{
@@ -34,6 +38,7 @@ header{
     padding: 0 30px;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .display-nav{
@@ -46,19 +51,21 @@ header{
 @media all and (max-width:1000px) {
     .menu-icon-button{
         display: block;
-        
-        
     }
+
     .display-nav{
         position: absolute;
         left: 0;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width:100%;
-        height: calc(50vh - 77px);
+        height: calc(30vh);
         background-color: black;
         border-top: 1px solid black;
         object-fit: contain;
         padding: 20px 0 0 0;
+
     }
 
     .box-nav.expanded{
@@ -68,18 +75,31 @@ header{
     .box-nav-hidden{
         display: none;
     }
-
-    .display-nav li {
-        text-align: center;
-        margin: 0;
-    }
     
     .display-nav.expanded li a{
-        width: 100%;
+        width: 100rem;
         padding: 1.5rem 0;
     }
 
     .display-nav li:hover {
         color: gold;
+    }
+}
+
+
+@media all and (max-width: 700px){
+    .display-header a {
+        font-size: 18px;
+        padding-right: 40px;
+    }
+    .display-nav{
+        height: calc(30vh - 77px);
+    }
+
+    .menu-icon{
+        height: 50px;
+    }
+    #home-icon{
+        height: 30px;
     }
 }
