@@ -2,6 +2,7 @@ import './assets/mainpage.css'
 import Placeholder from  './assets/images/placeholder_picture.jpg'
 import Project from './Project';
 import Table from './Table';
+import Cvpdf from './assets/data/CVBATHANY.pdf'
 
 
 
@@ -27,15 +28,15 @@ function Mainpage() {
         <section className='summary-myself' id='summary'>
             <div className='summary-picture'>
                 <img alt='Placeholder' src={Placeholder}></img>
-                {/* <h3><a href='#'>Mon CV</a></h3> */}
+                <h3><a href={Cvpdf}>Mon CV</a></h3>
             </div>
             <div className='summary-text'>
                 <h2>A propos de moi</h2>
-                <p>J'ai été introduit très jeune au monde de l'informatique à travers les jeux vidéos, puis à travers d'un livre sur la programmation en C. J'ai ensuite passé la majeure partie de mon enfance à alterner entre ma passion pour les jeux-vidéos & ma passion pour apprendre à mieux comprendre le monde autour de moi, et plus particulièrement tout ce qui concerne la programmation. Aujourd'hui, cette passion devient une réalité.</p> 
+                <p>J'ai été introduit très jeune au monde de l'informatique à travers les jeux vidéos, puis à travers d'un livre sur la programmation en C. J'ai ensuite passé la majeure partie de mon enfance à alterner entre ma passion pour les jeux-vidéos, la lecture de fantasy ou de sciences-fictions comme la séries d'Isaac Asimov "The Greater Foundation series" & ma passion pour l'informatique. Aujourd'hui, cette passion devient une réalité.</p> 
                 <div>
                     <h3>Outils que j'ai déjà manipulé:</h3>
                     <Table/>
-                    <a href='https://miro.com/app/board/uXjVM_6w1tY=/?share_link_id=916324835277'><h3 id='competence-link'>Mes compétences</h3></a>
+                    <a target='_blank' rel='noreferrer noopener' href='https://miro.com/app/board/uXjVM_6w1tY=/?share_link_id=916324835277'><h3 id='competence-link'>Mes compétences</h3></a>
                 </div> 
             </div>
         </section>
